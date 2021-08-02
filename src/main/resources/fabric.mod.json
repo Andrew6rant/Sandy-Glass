@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "sandyglass",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Sandy Glass Mod",
+  "description": "This mod adds fulgurite and sandy glass",
   "authors": [
-    "Me!"
+    "Andrew Grant (Andrew6rant)"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,17 +14,17 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/sandyglass/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.Andrew6rant.sandyglass.SandyGlass"
+    ],
+    "client": [
+      "io.github.Andrew6rant.sandyglass.SandyGlassClient"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.11.3",

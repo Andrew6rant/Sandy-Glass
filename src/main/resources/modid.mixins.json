@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "io.github.Andrew6rant.sandyglass.mixin.ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
