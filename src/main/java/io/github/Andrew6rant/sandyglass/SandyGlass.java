@@ -28,12 +28,14 @@ public class SandyGlass implements ModInitializer {
 	}
 
 	public static final Block SANDY_FULGURITE = new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE));
+	public static final Block RED_SANDY_FULGURITE = new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE));
 	public static final TintedGlassBlock SANDY_GLASS = new TintedGlassBlock(FabricBlockSettings.copyOf(Blocks.TINTED_GLASS));
 	public static final TintedGlassBlock RED_SANDY_GLASS = new TintedGlassBlock(FabricBlockSettings.copyOf(Blocks.TINTED_GLASS));
 
 	@Override
 	public void onInitialize() {
 		registerBlock(Names.SANDY_FULGURITE, SANDY_FULGURITE);
+		registerBlock(Names.RED_SANDY_FULGURITE, RED_SANDY_FULGURITE);
 		registerBlock(Names.SANDY_GLASS, SANDY_GLASS);
 		registerBlock(Names.RED_SANDY_GLASS, RED_SANDY_GLASS);
 	}
