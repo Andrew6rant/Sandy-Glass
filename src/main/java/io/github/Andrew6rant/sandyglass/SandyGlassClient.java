@@ -1,4 +1,4 @@
-package io.github.Andrew6rant.sandyglass;
+package io.github.andrew6rant.sandyglass;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;

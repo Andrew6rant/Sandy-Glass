@@ -13,24 +13,24 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/sandyglass/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.Andrew6rant.sandyglass.SandyGlass"
+      "io.github.andrew6rant.sandyglass.SandyGlass"
     ],
     "client": [
-      "io.github.Andrew6rant.sandyglass.SandyGlassClient"
+      "io.github.andrew6rant.sandyglass.SandyGlassClient"
     ]
   },
 
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16"
+    "minecraft": "1.20.x",
+    "java": ">=17"
   },
   "suggests": {
     "another-mod": "*"

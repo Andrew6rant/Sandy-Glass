@@ -1,4 +1,4 @@
-package io.github.Andrew6rant.sandyglass;
+package io.github.andrew6rant.sandyglass;
 
 public class Names {
     public static final String SANDY_FULGURITE = "sandy_fulgurite";
